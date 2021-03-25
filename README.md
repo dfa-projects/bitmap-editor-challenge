@@ -61,6 +61,16 @@ S - Show the contents of the current image
 X - Terminate the session"
 ```
 
+- NB: Colours are represented by different characters.
+- Hint: one possible implementation could involve representing the MxN image as a nested array. For example you might represent a 3x3 White image as:
+```js
+[
+  ['O', 'O', 'O'],
+  ['O', 'O', 'O'],
+  ['O', 'O', 'O'],
+]
+```
+
 ### Extended Criteria
 
 1. Here's an additional command to implement:
