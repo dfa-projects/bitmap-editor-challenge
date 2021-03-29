@@ -1,4 +1,5 @@
 const os = require('os');
+const image = require('../src/image.js')
 
 class BitmapEditor {
   constructor(display) {
@@ -17,6 +18,16 @@ class BitmapEditor {
         process.stdout.write(this.helpMessage());
       } else if (command === 'X') {
         this.display.close()
+      // } else if (command === ){
+        
+      // } else if (command === ){
+
+      // } else if (command === ){
+
+      // } else if (command === ){
+        
+      // } else if (command === ){
+         
       } else {
         process.stdout.write(`unrecognised command :(${os.EOL}`);
       }

@@ -11,5 +11,9 @@
   "devDependencies": {
     "eslint": "^7.22.0",
     "jasmine": "^3.7.0"
+  },
+  "dependencies": {
+    "image-js": "^0.31.4",
+    "os": "^0.1.1"
   }
 }
