@@ -12,14 +12,11 @@ Run the app using node index.js
 
 # Domain model (attempt)
 
-|Object|Properties|Messages|Context|Output|
+| Object | Properties | Messages | Context | Output | 
 |------|----------|--------|-------|------|
-|Image| |show()|Displays image|    |
-|------|----------|--------|-------|------|
-| | |clear()|Sets all pixels to white| |
-|------|----------|--------|-------|------|
-| | |colour()|Colours pixel|Coloured pixel|
-|------|----------|--------|-------|------|
-| | |verticalLine()|Draws vertical line| |
-|------|----------|--------|-------|------|
-| | |horizontalLine()|Draws horizontal line| |
+| Image | | show() | Displays image | string |
+| | colour pixel(s) @arr | clear() | Sets all pixels to white | string of Os|
+| | | colour() | Colours one pixel | string of Os except one |
+| | draw lines @arr | verticalLine() | Draws vertical line | string of Os except line |
+| | | horizontalLine()| Draws horizontal line | string of Os except line |
+| Bitmap editor | | | | |

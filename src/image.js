@@ -48,3 +48,7 @@ class Image {
 }
 
 module.exports = Image;
+
+let image = new Image(4, 4)
+console.log(image.show())
+console.log(typeof image.show())
