@@ -49,14 +49,16 @@ describe('Vertical', function(){
     });
 });
 
-describe('Clear', function(){
+describe('clear', function(){
     it('can set all pixels to white in 3x3 grid', function(){
       const image = new Image(3, 3)
+      image.colour(2, 3, 'C')
       expect(image.clear()).toEqual(`OOO${os.EOL}OOO${os.EOL}OOO`);
     });
 
     it('can set all pixels to white in 5x4 grid', function(){
         const image = new Image(5, 4)
+        image.verticalLine(3, 1, 4, 'H')
         expect(image.clear()).toEqual(`OOOOO${os.EOL}OOOOO${os.EOL}OOOOO${os.EOL}OOOOO`);
     });
 });

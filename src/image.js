@@ -8,9 +8,14 @@ class Image {
   }
 
   clear(){
+    for (let i = 0; i < this.width; i++){
+      for (let j = 0; j < this.height; j++){
+        this.grid[j][i] = 'O'
+      }
+    }
     return this.grid.map(row => {
-        return row.join('')
-      }).join(os.EOL);
+      return row.join('')
+    }).join(os.EOL);
   }
 
   colour(X, Y, clr){
@@ -39,7 +44,6 @@ class Image {
       }).join(os.EOL)
     }
 
-
   show() {
     return this.grid.map(row => {
       return row.join('')
@@ -47,8 +51,4 @@ class Image {
   }
 }
 
-module.exports = Image;
-
-let image = new Image(4, 4)
-console.log(image.show())
-console.log(typeof image.show())
+module.exports = Image

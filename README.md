@@ -7,10 +7,9 @@ Run the tests using npx jasmine or npm test.
 
 # Running app
 Run the app using node index.js
-
 ...
 
-# Domain model (attempt)
+# Domain model
 
 | Object | Properties | Messages | Context | Output | 
 |------|----------|--------|-------|------|
