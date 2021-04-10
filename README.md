@@ -16,12 +16,20 @@ node index.js
 ## Usage
 After running ```node index.js``` you should be presented with this prompt 
 
+![screenshot](screenshots/bitmap-image1.png)
+
 Please type '?' to see all the available commands for this app
 
-Here is an example of how it works:
+![screenshot](screenshots/bitmap-image2.png)
+
+### Example:
 Say you wanted to colour the pixel in the third column and fourth row of a 5x5 image, you would first need to create a blank (white) 5x5 grid using the 'I' command like this
 
-Then use the 'L' command followed by '3', '4' and a colour of your choice
+![screenshot](screenshots/bitmap-image3.png)
+
+Then use the ```L``` command followed by ```3```, ```4``` and a colour of your choice
+
+![screenshot](screenshots/bitmap-image4.png)
 
 Be sure to leave a space between each of the characters you type
 
