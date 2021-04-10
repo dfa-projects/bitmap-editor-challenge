@@ -9,10 +9,13 @@
   "author": "dearshrewdwit",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^7.22.0",
+    "eslint": "^7.24.0",
     "jasmine": "^3.7.0"
   },
   "dependencies": {
+    "eslint-config-common": "^3.0.1",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
     "image-js": "^0.31.4",
     "os": "^0.1.1"
   }

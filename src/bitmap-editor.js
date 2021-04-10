@@ -1,7 +1,7 @@
 const os = require('os');
 const Image = require('../src/image.js');
 
-class BitmapEditor {
+class BitmapEditor { 
   constructor(display) {
     this.display = display
   }
