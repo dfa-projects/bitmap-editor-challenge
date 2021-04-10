@@ -18,5 +18,13 @@
     "eslint-plugin-standard": "^5.0.0",
     "image-js": "^0.31.4",
     "os": "^0.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanna-98/bitmap-editor-challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hanna-98/bitmap-editor-challenge/issues"
+  },
+  "homepage": "https://github.com/hanna-98/bitmap-editor-challenge#readme"
 }
